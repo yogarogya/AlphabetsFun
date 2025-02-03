@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alphabets Fun Game</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Linking CSS file -->
+</head>
+<body>
+    <h1>Alphabet Fun Game</h1>
+    <div id="stopwatch">0:00</div>
+    <div class="button-container">
+        <button class="start-btn" onclick="startGame()">Start</button>
+        <button class="stop-btn" onclick="stopGame()">Stop</button>
+        <button class="level-btn" onclick="setLevel(5000)">Level 1</button>
+        <button class="level-btn" onclick="setLevel(2000)">Level 2</button>
+    </div>
+    <div class="container">
+        <div id="alphabetBox" class="box"></div>
+        <div id="selectedBox" class="box"></div>
+    </div>
+    <p id="message"></p>
+    
+    <script src="script.js"></script> <!-- Linking JavaScript file -->
+</body>
+</html>
